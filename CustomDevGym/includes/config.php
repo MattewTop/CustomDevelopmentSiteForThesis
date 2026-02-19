@@ -3,7 +3,7 @@
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'tesi_site');
 define('DB_USER', 'root');
-define('DB_PASS', 'MySQLPassword');
+define('DB_PASS', 'yourSQLPassword');
 
 //Configurazione email per il form contattaci
 define('EMAIL_TO', 'anymail@anydominion.something');
@@ -65,3 +65,4 @@ function getClienti($pdo, $stato = null) {
     return $stmt->fetchAll();
 
 }
+
