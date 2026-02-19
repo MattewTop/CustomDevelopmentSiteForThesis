@@ -6,7 +6,7 @@ define('DB_USER', 'root');
 define('DB_PASS', 'MySQLPassword');
 
 //Configurazione email per il form contattaci
-define('EMAIL_TO', 'boscajungle@gmail.com');
+define('EMAIL_TO', 'anymail@anydominion.something');
 define('EMAIL_SUBJECT', 'Custom development site test module submission');
 
 //Connessione al database con PDO
@@ -63,4 +63,5 @@ function getClienti($pdo, $stato = null) {
         ");
     }
     return $stmt->fetchAll();
+
 }
