@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // 1. Destinatario e Oggetto
-    $to = "matteo.pescarino@gmail.com";
+    $to = "anymail@anydominion@something";
     $subject = "Nuovo contatto da CustomDev Gym";
 
     // 2. Sanificazione dati
@@ -42,4 +42,5 @@ else {
     header("Location: ../contattaci.php");
     exit;
 }
+
 ?>
